@@ -1,6 +1,6 @@
 # 생존 예측 — Kaggle InClass 비공개 대회 (SKN-36) 2위 기록
 
-Kaggle InClass 비공개 대회 [SKN-36](https://www.kaggle.com/competitions/skn-36) (주최: 조경원, 참가자 16명)의 생존 예측 과제에서 2위를 기록한 프로젝트입니다.
+SKN-36기를 대상으로 하는 Kaggle InClass 비공개 대회(https://www.kaggle.com/competitions/skn-36) (주최: 조경원, 참가자 16명)의 생존 예측 과제에서 2위를 기록한 프로젝트입니다.
 초반에는 검증 방법론 자체의 버그로 존재하지 않는 고득점에 속고 있었고, 이를 바로잡은 뒤
 피처 엔지니어링과 하이퍼파라미터 튜닝을 반복하며 점진적으로 성능을 개선했습니다.
 
@@ -59,7 +59,7 @@ Kaggle InClass 비공개 대회 [SKN-36](https://www.kaggle.com/competitions/skn
 
 1~8번은 검증(`test_score`) 계산에 학습 데이터를 그대로 재사용하는 버그가 있어 자체 출력 점수를
 신뢰할 수 없습니다. 10번부터 홀드아웃 분리와 5-fold CV를 정상적으로 적용해, 이후 모든 비교는
-10\~15번 값을 기준으로 합니다. 자세한 내용은 블로그 원고를 참고하세요.
+10\~15번 값을 기준으로 합니다. 자세한 내용은 블로그를 참고하세요.
 
 ## 핵심 방법론
 
@@ -88,7 +88,7 @@ Python 3.12 · CatBoost · XGBoost · LightGBM · scikit-learn · Optuna · pand
 
 ## 대회 정보 / 인용
 
-이 프로젝트는 Kaggle InClass 비공개 대회 SKN-36을 위해 진행되었습니다.
+이 프로젝트는 Kaggle InClass 비공개 대회 SKN 36기를 대상으로 진행되었습니다.
 
 ```bibtex
 @misc{skn-36,
