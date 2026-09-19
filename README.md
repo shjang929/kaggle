@@ -88,7 +88,7 @@ Python 3.12 · CatBoost · XGBoost · LightGBM · scikit-learn · Optuna · pand
 
 ## 대회 정보 / 인용
 
-이 프로젝트는 Kaggle InClass 비공개 대회 SKN 36기를 대상으로 진행되었습니다.
+이 프로젝트는 SKN 36기 Kaggle InClass 비공개 대회를 위해 진행되었습니다.
 
 ```bibtex
 @misc{skn-36,
