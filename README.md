@@ -49,7 +49,7 @@ Kaggle InClass 비공개 대회 [SKN-36](https://www.kaggle.com/competitions/skn
 | 6 | base model_feature_Bayesian | Optuna(TPE) 베이지안 HPO | 검증 버그로 신뢰 불가 |
 | 7 | base model_feature_HPO | 이름과 달리 튜닝 코드 없음(3번과 동일 구조) | 검증 버그로 신뢰 불가 |
 | 8 | base model_feature_shap | SHAP 피처 중요도 분석 | 검증 버그로 신뢰 불가 |
-| 9 | score_history | 1~15번 점수 종합 비교 시각화 | — |
+| 9 | score_history | 1\~15번 점수 종합 비교 시각화 | — |
 | 10 | final_01 | 홀드아웃 검증 재설계 (여기부터 신뢰 가능) | Acc 0.8700 / AUC 0.9060 |
 | 11 | final_02 | 신규 피처 7개 일괄 추가 | 회귀, Acc 0.8646 / AUC 0.9040 |
 | 12 | final_03 | 피처 원복 + Optuna 멀티오브젝티브 튜닝 시작 | Acc 0.8700 / AUC 0.9085 |
@@ -59,7 +59,7 @@ Kaggle InClass 비공개 대회 [SKN-36](https://www.kaggle.com/competitions/skn
 
 1~8번은 검증(`test_score`) 계산에 학습 데이터를 그대로 재사용하는 버그가 있어 자체 출력 점수를
 신뢰할 수 없습니다. 10번부터 홀드아웃 분리와 5-fold CV를 정상적으로 적용해, 이후 모든 비교는
-10~15번 값을 기준으로 합니다. 자세한 내용은 블로그 원고를 참고하세요.
+10\~15번 값을 기준으로 합니다. 자세한 내용은 블로그 원고를 참고하세요.
 
 ## 핵심 방법론
 
