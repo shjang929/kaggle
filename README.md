@@ -1,6 +1,6 @@
-# 타이타닉 생존 예측 — Kaggle InClass 비공개 대회 (SKN-36) 2위 기록
+# 생존 예측 — Kaggle InClass 비공개 대회 (SKN-36) 2위 기록
 
-Kaggle InClass 비공개 대회 [SKN-36](https://www.kaggle.com/competitions/skn-36) (주최: 조경원, 참가자 16명)의 타이타닉 생존 예측 과제에서 2위를 기록한 프로젝트입니다.
+Kaggle InClass 비공개 대회 [SKN-36](https://www.kaggle.com/competitions/skn-36) (주최: 조경원, 참가자 16명)의 생존 예측 과제에서 2위를 기록한 프로젝트입니다.
 초반에는 검증 방법론 자체의 버그로 존재하지 않는 고득점에 속고 있었고, 이를 바로잡은 뒤
 피처 엔지니어링과 하이퍼파라미터 튜닝을 반복하며 점진적으로 성능을 개선했습니다.
 
